@@ -1,0 +1,95 @@
+body {
+    background-color: grey;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.button {
+    background-color: rgb(255, 255, 0);
+    width: 150px;
+    border: 5px solid rgba(252, 235, 0, 0.801);
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Chonburi';
+    font-size: 20px;
+}
+
+img {
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.login {
+    border: 3px solid white;
+    padding: 120px;
+    border-radius: 25px;
+    width: 55px;
+    margin-left: 802px;
+    margin-top: 315px;
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    padding: 8px 0;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid white;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    float: left;
+    margin: 0 10px;
+}
+
+.btn {
+    width: 100%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-style: bold;
+    cursor: pointer;
+    margin: 1;
+}
+
+::placeholder {
+    color: rgb(196, 196, 196);
+}
+
+.text {
+    font-family: Chonburi;
+    font-size: 60px;
+    margin-top: 20px;
+    color: #ffde59;
+}
